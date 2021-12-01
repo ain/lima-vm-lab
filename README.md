@@ -22,6 +22,8 @@ See also [lima-vm repo](https://github.com/lima-vm/lima).
 
         lima nerdctl compose up
 
+4. Check http://localhost
+
 ## Licence
 
 Copyright © 2021 Ain Tohvri. Licenced under [GPL-3](LICENSE).
