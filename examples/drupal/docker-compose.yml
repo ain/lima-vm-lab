@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  web:
+    image: drupal:9.2
+    ports:
+      - "80:80"
+    expose:
+      - "80"
+    links:
+      - db
+  db:
+    image: mariadb:10.7
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_DATABASE: drpl
