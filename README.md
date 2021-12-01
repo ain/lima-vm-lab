@@ -9,11 +9,11 @@ See also [lima-vm repo](https://github.com/lima-vm/lima).
 1. Install `lima-vm` by following the [installation guide](https://github.com/lima-vm/lima#installation)
 2. Start `lima-vm`
 
-        $ limactl start default
+        limactl start default
 
 3. Run Compose
 
-        $ lima nerdctl compose up
+        lima nerdctl compose up
 
 ## Licence
 
