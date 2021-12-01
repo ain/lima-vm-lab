@@ -4,9 +4,16 @@ This repo includes lima-vm experiments to showcase the technology.
 
 See also [lima-vm repo](https://github.com/lima-vm/lima).
 
-## How to run
+## Requirements
 
-1. Install `lima-vm` by following the [installation guide](https://github.com/lima-vm/lima#installation)
+- `lima-vm`. Install by following the [installation guide](https://github.com/lima-vm/lima#installation)
+
+## How to run examples
+
+1. Move into example folder, e.g.:
+
+        cd examples/nginx
+
 2. Start `lima-vm`
 
         limactl start default
